@@ -1,0 +1,136 @@
+:root {
+    --background-base-color: rgb(255, 255, 255);
+    --background-block-color: rgb(242, 241, 235);
+    --background-tipsblock-color: rgb(255, 251, 227);
+    --background-footer-color: rgb(252, 252, 252);
+    --font-base-color: rgb(120, 150, 80);
+    --font-link-color: rgb(23, 114, 208);
+    font-family: 'Arial', Verdana, Helvetica, sans-serif;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+/* Components */
+h1 { font-weight: normal; }
+
+h2 {
+    font-weight: normal;
+    color: var(--font-base-color);
+    margin: 10px 0;
+}
+
+a { 
+    text-decoration: none; 
+    color: var(--font-link-color); 
+}
+
+a:hover { color: var(--font-base-color); }
+
+ul[class=home-list] {
+    list-style: none;
+    /* padding-left: 20px; */
+}
+
+
+blockquote {
+    background-color: var(--background-block-color);
+    padding: 0.5px 15px;
+    border-radius: 5px;
+}
+
+.tips-blockquote {
+    background-color: var(--background-tipsblock-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.post-figure {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header div[class=header-left] {
+    /* background-color: aqua; */
+    flex-grow: 2;
+    
+    figure img {
+        display: block;
+        margin: auto;
+        width: 200px;
+    }
+    figure figcaption {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    i[class*=fa] { font-size: 30px; }
+}
+
+header div[class=header-right] {
+    /* background-color: aquamarine; */
+    flex-grow: 8;
+}
+
+/* Sections */
+section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+section[class=research-interest] {
+    /* background-color: lightblue; */
+    span {
+        margin-left: 20px;
+    }
+}
+
+section[class=publications] {
+    /* background-color: lightsalmon; */
+    vertical-align: middle;
+}
+
+section[class=awards] {
+    /* background-color: lightskyblue; */
+}
+
+section[class=misc] {
+    /* background-color: lightpink; */
+}
+
+footer {
+    background-color: var(--background-footer-color);
+    padding: 10px 10px 20px;
+    color: lightgray;
+    font-size: 12px;
+    a {
+        text-decoration: none;
+        color: lightgray;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+}

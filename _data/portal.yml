@@ -1,0 +1,62 @@
+language_learning_resources:
+  English:
+    - title: Stories for English learning
+      link: https://www.practisingenglish.com/listen-to-stories.htm
+
+  Japanese:
+    - title: Nihongo Library
+      link: https://nihongolibrary.com/home/free-japanese-study-materials/
+      
+    - title: JLPT Official Practice Workbook
+      link: https://www.jlpt.jp/e/samples/sampleindex.html
+      
+    - title: Marugoto - Minato JF Japanese e-learning
+      link: https://minato-jf.jp/
+      
+    - title: Try out JLPT N5-N1 (Google Drive)
+      link: https://drive.google.com/drive/folders/1Ly4nSYMNZmUUL596kb2zplZvT8cqThfB
+    
+    - title: Special Skilled Worker (SSW) - Japan (Google Drive)
+      link: https://drive.google.com/drive/folders/14YTvgE_twyz8oFy2xhRf8jqYvIiOoUAk
+
+    - title: Belajar Bahasa Jepang Bersama
+      link: https://www.bahasajepangbersama.com/
+    
+    - title: Learn Japanese; A Ridiculously Detailed Guide
+      link: https://www.tofugu.com/learn-japanese/
+
+    - title: Connect and Enhance Your Life in Japanese (Tsunahiro)
+      link: https://tsunagarujp.mext.go.jp/?lang_id=EN
+
+interesting_stuff:
+  - title: You Are NOT Dumb, You Just Lack the Prerequisites (by lelouch.dev)
+    link: https://lelouch.dev/blog/you-are-probably-not-dumb/
+    
+  - title: Garuda Ilmu Komputer (GIK/ACE)
+    link: https://sites.google.com/site/garudailmukomputer/
+
+  - title: Peta Sebaran Masjid di Jepang
+    link: https://www.google.com/maps/d/u/0/viewer?mid=1dfiCQAmYDwAvoDHfNUhHv9R-zo60lrU&ll=38.58123104749527%2C140.49608630834194&z=6
+
+academia:  
+  - title: Applying to Graduate School (MS/PhD)
+    link: https://pittcs.wiki/academics/applying-to-graduate-school/
+  
+  - title: Go to a State School
+    link: https://www.natesilver.net/p/go-to-a-state-school
+
+tech_related:
+  - title: Zen of Python
+    link: https://en.wikipedia.org/wiki/Zen_of_Python
+  
+  - title: A Beginner's Guide to Clean Data
+    link: https://b-greve.gitbook.io/beginners-guide-to-clean-data/
+  
+  - title: The Data Engineering Cookbook
+    link: https://github.com/andkret/Cookbook
+  
+  - title: 
+    link: 
+  
+  - title: 
+    link: 

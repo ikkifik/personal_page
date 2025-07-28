@@ -1,0 +1,30 @@
+<!-- publications:start -->
+<section class="publications">
+    <h2>Publications</h2>
+    <table>
+        <colgroup>
+            <col span="1" style="width: 20%;">
+            <col span="1" style="width: 80%;">
+        </colgroup>
+        <tbody>
+            
+            {% assign publications_conferences = site.data.publications.conferences | sort: "year" | reverse %}
+            {% for conf in publications_conferences %}
+            <tr>
+                <td style="font-weight: bold;">
+                    [{{ conf.publisher }}]
+                    {% if conf.best_paper %}<br /><span style="color: crimson; font-weight: bold; font-size: 14px;">*Best Paper Award</span> {% endif %}
+                </td>
+                <td>
+                    <b>{{ conf.title }}</b><br />
+                    {{ conf.authors }}<br />
+                    <a href="{{ conf.doi }}" target="_blank" rel="noopener noreferrer"><b>Paper</b></a>
+                </td>
+            </tr>
+            {% endfor %}
+            
+        </tbody>
+    </table>
+</section>
+
+<!-- publications:end -->

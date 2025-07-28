@@ -1,0 +1,22 @@
+<!-- awards:start -->
+
+<section class="awards">
+    <h2>Awards</h2>
+    <table>
+        <colgroup>
+            <col span="1" style="width: 55%;">
+            <col span="1" style="width: 45%;">
+        </colgroup>
+        <tbody>
+            {% for item in site.data.awards.awards %}
+            <tr>
+                <td>{{ item.title }}</td>
+                <td>{{ item.year }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+
+<!-- awards:end -->

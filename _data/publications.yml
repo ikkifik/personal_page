@@ -1,0 +1,32 @@
+books:
+  - title: Data Science Geospatial
+    doi: https://books.google.co.id/books?id=LNBBEQAAQBAJ
+    publisher: Andi Publisher
+    year: 2025
+
+journal:
+  - title: The Hybrid Recommender System of the Indonesian Online Market Products using IMDb weight rating and TF-IDF
+    doi: https://doi.org/10.29207/resti.v5i5.3486
+    authors: <u>Muhammad Zuhdi Fikri Johari</u>, AD Laksito.
+    publisher: RESTI '21
+    year: 2021
+
+conferences:
+  - title: 'GIS data support technique for forest fire management and decision support system: A Sebangau National Park, Kalimantan case'
+    doi: https://doi.org/10.1109/ICOIACT59844.2023.10455935
+    authors: KA Yuana, Kusrini, A Setyanto, AD Laksito, ZR Maruf, <u>Muhammad Zuhdi Fikri Johari</u>, GB Adninda, et al.
+    publisher: ICOIACT '23
+    year: 2023
+
+  - title: Machine Learning and Social Media Harvesting for Wildfire Prevention
+    doi: https://doi.org/10.1109/ICPRS58416.2023.10179001
+    authors: AD Laksito, Kusrini, A Setyanto, <u>Muhammad Zuhdi Fikri Johari</u>, ZR Maruf, et al.
+    publisher: ICPRS '23
+    year: 2023
+
+  - title: Monte Carlo Method For Map Area Calculation In Wildland Fire Map Management
+    doi: https://doi.org/10.1109/ICITISEE57756.2022.10057604
+    authors: KA Yuana, Kusrini, A Setyanto, AD Laksito, ZR Maruf, <u>Muhammad Zuhdi Fikri Johari</u>, GB Adninda, et al.
+    publisher: ICITISEE '22
+    year: 2022
+    best_paper: true
