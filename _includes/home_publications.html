@@ -1,6 +1,6 @@
 <!-- publications:start -->
 <section class="publications">
-    <h2>Publications</h2>
+    <h2>Selected Publications</h2>
     <table>
         <colgroup>
             <col span="1" style="width: 20%;">
@@ -13,12 +13,27 @@
             <tr>
                 <td style="font-weight: bold;">
                     [{{ conf.publisher }}]
-                    {% if conf.best_paper %}<br /><span style="color: crimson; font-weight: bold; font-size: 14px;">*Best Paper Award</span> {% endif %}
+                    {% if conf.best_paper %}<br /><span style="color: lightcoral; font-weight: bold; font-size: 14px;">*Best Paper Award</span> {% endif %}
                 </td>
                 <td>
                     <b>{{ conf.title }}</b><br />
                     {{ conf.authors }}<br />
                     <a href="{{ conf.doi }}" target="_blank" rel="noopener noreferrer"><b>Paper</b></a>
+                </td>
+            </tr>
+            {% endfor %}
+
+            {% assign publications_journal = site.data.publications.journal | sort: "year" | reverse %}
+            {% for jour in publications_journal %}
+            <tr>
+                <td style="font-weight: bold;">
+                    [{{ jour.publisher }}]
+                    {% if jour.best_paper %}<br /><span style="color: lightcoral; font-weight: bold; font-size: 14px;">*Best Paper Award</span> {% endif %}
+                </td>
+                <td>
+                    <b>{{ jour.title }}</b><br />
+                    {{ jour.authors }}<br />
+                    <a href="{{ jour.doi }}" target="_blank" rel="noopener noreferrer"><b>Paper</b></a>
                 </td>
             </tr>
             {% endfor %}

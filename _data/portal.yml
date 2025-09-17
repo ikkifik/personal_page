@@ -2,6 +2,9 @@ language_learning_resources:
   English:
     - title: Stories for English learning
       link: https://www.practisingenglish.com/listen-to-stories.htm
+    
+    - title: Harvard Classics
+      link: https://www.myharvardclassics.com/
 
   Japanese:
     - title: Nihongo Library
@@ -44,6 +47,15 @@ academia:
   
   - title: Go to a State School
     link: https://www.natesilver.net/p/go-to-a-state-school
+  
+  - title: "CSRankings: still a biased ranking"
+    link: https://data-mining.philippe-fournier-viger.com/csrankings-still-a-biased-ranking/
+
+  - title: Eight Lessons Learned in Two Years of Ph.D.
+    link: https://ai.engin.umich.edu/2023/08/17/eight-lessons-learned-in-two-years-of-ph-d/
+
+  - title: Machine Learning News (Google groups)
+    link: https://groups.google.com/g/ml-news
 
 tech_related:
   - title: Zen of Python
